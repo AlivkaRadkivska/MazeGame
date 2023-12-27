@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HomeForCat.App" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForCat.EndWindow" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAgAAAAAAAAAAAAAADAAAAAEAAAAAAA=</HashCode>
+      <FileName>EndWin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="language" />
+      <Field Name="gamers" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Class Name="HomeForCat.GameWindow" BaseTypeListCollapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <AssociationLine Name="gamers" Type="ClassLibrary.Gamer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="6.75" />
+        <Point X="8.219" Y="6.75" />
+        <Point X="8.219" Y="5.344" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AigAkAAAAAAACAgAECAEEAAAAAAAQCAgIABAAABAAAA=</HashCode>
+      <FileName>GameWin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="language" />
+      <Field Name="gamers" />
+      <Field Name="maze" />
+      <Field Name="nav" />
+      <Field Name="gameTimer" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Class Name="HomeForCat.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAgEAAIAAAAAAAAAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gamersList" />
+      <Field Name="language" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.116" />
+  </Class>
+  <Class Name="HomeForCat.Properties.Resources" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForCat.Properties.Settings" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary.AvatarNavigation">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ClassLibrary.Gamer">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ClassLibrary.Language">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ClassLibrary.MazeField">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ClassLibrary.MazeGeneration">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Threading.DispatcherTimer">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
